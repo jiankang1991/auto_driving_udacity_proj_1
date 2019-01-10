@@ -28,10 +28,10 @@ My pipeline consisted of 5 steps, the steps are introduced as following:
 
 Based on the above pipeline, I first test it on images. Here is one example of the original image and the output of the detected lanes.
 
-![alt text][./test_images/solidWhiteCurve.jpg]
+![alt text](./test_images/solidWhiteCurve.jpg)
 *original image*
 
-![alt text][./test_images_output/solidWhiteCurve_lane.png]
+![alt text](./test_images_output/solidWhiteCurve_lane.png)
 *Output of the detected lanes*
 
 The final goal of the project is to draw single lines of left and right lanes. In order to do so, the basic idea utilized here is to find the parameterized description of lane lines and use coordinates of bottom and top points to draw them. 
@@ -42,7 +42,7 @@ However, when I test the method on the video, the detected lines on several fram
 
 Here is an illusration of the final result of lane line detection.
 
-![alt text][./test_images_output/solidWhiteCurve_lane_new_draw.png]
+![alt text](./test_images_output/solidWhiteCurve_lane_new_draw.png)
 *Output of the final detected lanes*
 
 
